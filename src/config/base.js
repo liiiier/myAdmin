@@ -1,0 +1,1 @@
+export const BASE_URL = "http://localhost:3000" // 这是我后端服务器开的端口和地址
