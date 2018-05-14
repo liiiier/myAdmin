@@ -9,7 +9,12 @@ import 'iview/dist/styles/iview.css';
 Vue.component('IButton', Button);
 Vue.component('IInput', Input);
 Vue.component('Tooltip', Tooltip);
-Vue.component('Poptip',Poptip)
+Vue.component('Poptip', Poptip)
+router.beforeEach((to, from, next) => {
+  // 
+ next()
+ 
+})
 new Vue({
   router,
   store,
